@@ -1,0 +1,4 @@
+export(getCurrentTime)
+export(udpSendRecv)
+useDynLib(currentTime, udp_transact_impl)
+importFrom(curl, nslookup)

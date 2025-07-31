@@ -1,0 +1,5 @@
+
+print(currentTime::getCurrentTime())
+warnings()
+
+
