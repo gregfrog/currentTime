@@ -1,5 +1,4 @@
-#' @export
-#' @useDynLib udp udp_transact_impl
+
 udpSendRecv <- function(host, port, rawMessage, doReceive) {
   stopifnot(is.character(host))
   stopifnot(is.numeric(port))

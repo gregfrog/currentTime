@@ -1,6 +1,6 @@
 Package: currentTime
 Type: Package
-Title: Retrieves current time from public NTP servers in pool.ntp.org
+Title: Retrieves Current Time from Public NTP Servers in Pool.ntp.org
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -10,7 +10,7 @@ Authors@R: c(
     )
   )
 Description: Implements an UDP NTP query to get a good approximation to the current time.   
-    With the widespread use of NTP on hosts this is somewhat archaic function. 
+    With the widespread use of NTP on hosts this is a somewhat anachronistic function. 
 License: GPL-3
 Encoding: UTF-8
 Depends: curl
